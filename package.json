@@ -2,6 +2,7 @@
   "name": "qrcodes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://imonochrome.github.io/qr-code-generator/",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",
@@ -35,7 +36,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
