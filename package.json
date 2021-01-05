@@ -2,7 +2,7 @@
   "name": "qrcodes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://imonochrome.github.io/qr-code-generator/",
+  "homepage": "http://imonochrome.github.io/",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",
