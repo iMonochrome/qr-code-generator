@@ -4,6 +4,7 @@ import { EyeFilled, DownloadOutlined } from "@ant-design/icons";
 import { QRNormal } from "react-qrbtf";
 import { StoreContext } from "../utils/stores";
 import Loading from "../../Loading";
+var QRCode = require('qrcode.react');
 
 const { Text } = Typography;
 
@@ -100,15 +101,18 @@ function QRPreview(props) {
           }}
           className="preview-container flex__center__start"
         >
-          <QRNormal
+          <QRCode
             otherColor={qrOtherColor}
             value={qrValue}
             className="my-qrcode"
             id="my-qrcode"
             type={type}
             level="M"
-            posColor={"red"}
-            // posType="round"
+            size={210}
+            // posColor={"red"}
+            // posType="round"  
+            renderAs={"svg"}
+
             styles={{
               svg: {
                 background: qrFill,

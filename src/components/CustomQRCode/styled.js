@@ -208,6 +208,7 @@ export const CustomQRCodeStyled = styled(Row)`
 
     &__canvas {
       position: relative;
+      padding-top: 30px;
       .preview-container {
         height: 370px;
         width: 260px;
@@ -215,8 +216,6 @@ export const CustomQRCodeStyled = styled(Row)`
         background-repeat: no-repeat;
         background-size: 100%;
         svg {
-          height: 280px;
-          width: 280px;
           top: -6px;
           position: absolute;
         }

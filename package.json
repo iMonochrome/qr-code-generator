@@ -2,7 +2,6 @@
   "name": "qrcodes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://imonochrome.github.io/",
   "dependencies": {
     "@ant-design/icons": "^4.2.1",
     "@craco/craco": "^5.6.4",
@@ -17,6 +16,7 @@
     "i18next-xhr-backend": "^3.2.2",
     "less": "^2.7.2",
     "less-loader": "^6.2.0",
+    "qrcode.react": "^1.0.1",
     "rc-animate": "^3.1.0",
     "react": "^16.13.1",
     "react-color": "^2.19.3",
@@ -36,9 +36,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": "react-app"
